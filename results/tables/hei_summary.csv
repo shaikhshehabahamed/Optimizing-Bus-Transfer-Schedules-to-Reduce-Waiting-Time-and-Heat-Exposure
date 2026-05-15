@@ -1,0 +1,2 @@
+n_transfer_pairs,n_transfer_stops,n_exposed_stops,n_sheltered_stops,total_wait_min,mean_wait_min,total_hei,total_hei_p90,total_hei_weighted,mean_hei_per_xfer,max_hei_single_xfer,pct_hei_peak_12_17h,peak_wbgt_hour,peak_hei_hour
+15038,170,15027,11,115952.11666666667,7.710607571928891,2785186.7040631827,3054237.8094204646,1280652.529109306,185.20991515249253,378.2782639484054,51.02414305973196,14,14

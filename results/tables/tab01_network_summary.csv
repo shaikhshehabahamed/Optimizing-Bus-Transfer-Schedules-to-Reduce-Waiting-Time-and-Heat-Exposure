@@ -1,0 +1,14 @@
+Metric,Value
+Routes (total in network),16
+Routes with weekday service,15
+Weekday trips,1137
+Unique stops,1223
+Stop events,45753
+Transfer pairs (after same-block filter),15038
+Sheltered transfer stops,11
+Transfer window (min),1 – 15
+Mean wait time (min),7.71
+Baseline f1 (min),115952.1
+Baseline f2 (°C·min),1280652.5
+Peak WBGT hour,14
+Peak mean summer WBGT (°C),25.22

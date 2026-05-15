@@ -1,0 +1,19 @@
+season,solution,f2_season,f2_pct_red
+summer,Baseline,1280652.53,0.0
+summer,Greedy-f1,1259497.84,1.652
+summer,Greedy-f2,1257241.94,1.828
+summer,NSGA-II min-f1,1195713.07,6.633
+summer,NSGA-II knee,1185380.01,7.439
+summer,NSGA-II min-f2,1182062.89,7.698
+spring,Baseline,809806.31,36.766
+spring,Greedy-f1,797412.01,37.734
+spring,Greedy-f2,796104.44,37.836
+spring,NSGA-II min-f1,755985.53,40.969
+spring,NSGA-II knee,749572.1,41.47
+spring,NSGA-II min-f2,747516.41,41.63
+fall,Baseline,879245.09,31.344
+fall,Greedy-f1,865493.63,32.418
+fall,Greedy-f2,864036.85,32.532
+fall,NSGA-II min-f1,820869.36,35.902
+fall,NSGA-II knee,813956.59,36.442
+fall,NSGA-II min-f2,811724.08,36.616

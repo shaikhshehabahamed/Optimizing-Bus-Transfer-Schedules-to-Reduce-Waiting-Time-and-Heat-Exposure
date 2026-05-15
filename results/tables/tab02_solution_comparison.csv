@@ -1,0 +1,7 @@
+Solution,f1_min,f1_pct_reduction,f2_hei,f2_pct_reduction,wait_saved_min,hei_saved,n_missed_conn,pct_missed,is_feasible,n_trips_shifted,mean_abs_shift_sec
+Baseline,115952.12,0.0,1280652.53,0.0,0.0,0.0,0,0.0,True,0,0.0
+Greedy-f1,111812.79,3.57,1259497.84,1.65,4139.3,21154.7,161,1.07,True,1096,75.3
+Greedy-f2,111867.89,3.52,1257241.94,1.83,4084.2,23410.6,156,1.04,True,1090,73.6
+NSGA-II min-f1,110943.91,4.32,1195713.07,6.63,5008.2,84939.5,2221,14.77,True,1135,133.8
+NSGA-II knee,111616.95,3.74,1185380.01,7.44,4335.2,95272.5,2172,14.44,True,1135,133.8
+NSGA-II min-f2,111942.45,3.46,1182062.89,7.7,4009.7,98589.6,2171,14.44,True,1136,133.7

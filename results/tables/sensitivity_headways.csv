@@ -1,0 +1,7 @@
+solution,n_pairs,n_violated,min_hw_ratio,mean_hw_ratio,pct_hw_compressed
+Baseline,928,0,1.0,1.0,0.0
+Greedy-f1,928,0,0.8,0.9992,51.5
+Greedy-f2,928,0,0.8,0.9997,50.2
+NSGA-II min-f1,928,0,0.8007,1.0024,51.2
+NSGA-II min-f2,928,0,0.8007,1.0025,51.1
+NSGA-II knee,928,0,0.8007,1.0025,51.2

@@ -1,0 +1,84 @@
+{
+  "network": {
+    "n_routes_total": 16,
+    "n_routes_weekday": 15,
+    "n_weekday_trips": 1137,
+    "n_stops": 1223,
+    "n_stop_events": 45753,
+    "n_transfer_pairs": 15038,
+    "n_same_block_removed": 636,
+    "transfer_window_min": [
+      1,
+      15
+    ],
+    "mean_wait_min": 7.711,
+    "median_wait_min": 7.667
+  },
+  "wbgt": {
+    "peak_hour": 14,
+    "peak_wbgt_mean_C": 25.219,
+    "transit_mean_9_18h": 24.384,
+    "pct_moderate_risk": 25.2,
+    "seasonal_gap_pct": 56.2
+  },
+  "baseline": {
+    "f1_total_wait_min": 115952.12,
+    "f2_weighted_hei": 1280652.53,
+    "pct_hei_12_17h": 51.1,
+    "n_sheltered_stops": 11,
+    "n_exposed_stops": 15027
+  },
+  "results": {
+    "pareto_n_solutions": 200,
+    "hypervolume": 0.004587,
+    "pareto_f1_range": [
+      110943.91,
+      111942.45
+    ],
+    "pareto_f2_range": [
+      1182062.89,
+      1195713.07
+    ],
+    "greedy_f2": {
+      "f1": 111867.89,
+      "f2": 1257241.94,
+      "f1_red_pct": 3.522,
+      "f2_red_pct": 1.828,
+      "n_missed": 156,
+      "runtime_ms": 500
+    },
+    "nsga2_min_f1": {
+      "f1": 110943.91,
+      "f2": 1195713.07,
+      "f1_red_pct": 4.319,
+      "f2_red_pct": 6.633,
+      "n_missed": 2221
+    },
+    "nsga2_knee": {
+      "f1": 111616.95,
+      "f2": 1185380.01,
+      "f1_red_pct": 3.739,
+      "f2_red_pct": 7.439,
+      "n_missed": 2172
+    },
+    "nsga2_min_f2": {
+      "f1": 111942.45,
+      "f2": 1182062.89,
+      "f1_red_pct": 3.458,
+      "f2_red_pct": 7.698,
+      "n_missed": 2171
+    },
+    "nsga2_runtime_s": 187,
+    "nsga2_generations": 500,
+    "nsga2_pop_size": 200,
+    "greedy_runtime_ms": 500
+  },
+  "formulation": {
+    "n_decision_vars": 1137,
+    "delta_max_sec": 300.0,
+    "n_objectives": 2,
+    "n_headway_constraints": 928,
+    "headway_tolerance_pct": 20,
+    "missed_conn_treatment": "soft max(0,.) clamping + post-hoc reporting"
+  }
+}
